@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  font-family: "Montserrat", sans-serif;
+}
+body{
+  font-size: 62.5%;
+}
+header {
+  margin:0;
+  padding:  24px;
+  display:flex;
+  justify-content: space-between;
+  color:rgb(0, 0, 0);
+  /* font-size:0.7rem; */
+  background-color: #2B2922;
+}
+
+.logo {
+  width:104px;
+}
+nav {
+  justify-self: flex-end;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  color:rgba(255, 255, 255, 0.497);
+  column-gap: 24px; 
+  cursor:pointer;
+  font-size:1rem;
+}
+.nav-item:first-child {
+  font-weight:bold;
+  color:white;
+}
+.nav-item:hover{
+  color:rgb(212, 255, 0);
+}
+.register-button {
+  background: transparent; 
+  border-radius:8px;
+  padding: 8px 16px;
+  color:rgb(246, 255, 0);
+  cursor:pointer;
+  border : 1px solid rgb(246, 255, 0);
+}
+.hero-section {
+  background-color: #2B2922;
+  margin:0;
+  
+  display: flex;
+  flex-direction: column;
+}
+.hero-text {
+  
+color:white;
+display:flex;
+justify-content: center;
+column-gap: 8rem;
+}
+.hero-heading {
+  padding-right: 8px;
+  margin-bottom:24px;
+  font-size:3.5rem;
+  
+}
+.hero-img {
+  width :100%;
+  
+}
+.hero-description{
+line-height : 1.5;
+color : #a9a8a8;
+font-size:1rem;
+
+margin-bottom:24px;
+flex-basis:20%;
+}
